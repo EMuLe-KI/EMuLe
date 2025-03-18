@@ -1037,18 +1037,17 @@ section,
 }
 
 .about .about-img {
-  min-height: 400px;
   position: relative;
+  height: auto;
 }
 
 @media (min-width: 992px) {
   .about .about-img {
-    position: absolute;
-    top: 0;
-    right: 0;
-    min-height: 600px;
+    position: relative; /* or remove if not needed */
+    height: auto;
   }
 }
+
 
 .about .about-img img {
   position: absolute;
